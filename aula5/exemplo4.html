@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+    h1
+    {
+        background-color: gold;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+
+    table, th, td
+    {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+    }
+
+    </style>
+</head>
+<body>
+    
+    <h1>Aula 05 - Exemplo 1</h1>
+
+    <h3>Exemplo do rowspan</h3>
+
+    <table>
+
+        <tr> 
+            <th>Aula</th>
+            <th>Quarta-Feira</th>
+            <th>Quinta-Feira</th>
+            <th>Sexta-Feira</th>
+        </tr>
+
+        <tr>
+            <td>1ªaula</td>
+            <td rowspan="2">Programação e Alg</td>
+            <td>Matemática</td>
+            <td>Química</td>
+        </tr>
+
+        <tr>
+            <td>2ªaula</td>
+            <td>Português</td>
+            <td rowspan="2">Educação Física</td>
+        </tr>
+
+        <tr>
+            <td>3ªaula</td>
+            <td>Arte</td>
+            <td rowspan="2">Interfaces Web</td>
+        </tr>
+
+        <tr>
+            <td>4ªaula</td>
+            <td>Geografia</td>
+            <td>Biologia</td>
+        </tr>
+
+        <tr>
+            <td>5ªaula</td>
+            <td rowspan="2">Língua Inglesa</td>
+            <td>Química</td>
+            <td rowspan="2">Banco de Dados</td>
+        </tr>
+
+        <tr>
+            <td>6ªaula</td>
+            <td>Matemática</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
